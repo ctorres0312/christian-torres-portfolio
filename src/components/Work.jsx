@@ -12,30 +12,58 @@ const Work = () => {
             <p className='py-6'>// Check out some of my recent work</p>
         </div>
 
-        <div style={{backgroundImage: `url(${ThriftThreads})`}}
+        <div 
+      
+              //  container
         className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-            <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
 
+           {/* Grid Item */}
+            <div 
+            style={{backgroundImage: `url(${ThriftThreads})`}}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            >
                 {/* Hover effects */}
-
                 <div className='opacity-0 group group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
                                 React JS Application
                             </span>
 
                         <div className='pt-8 text-center'>
-                            <a href='/'>
-                                <button>Demo</button>
+                            <a target="_blank" href='https://thriftthreads.vercel.app/'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' >Demo</button>
                             </a>
-                            <a href='/'>
-                                <button>Code</button>
+                            <a target="_blank" href='https://github.com/ctorres0312/Thrift-Threads'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' >Code</button>
                             </a>
                         </div>
+                  </div>
                 </div>
-            </div>
-        </div>
+                  
+                  {/* Grid Item */}
+                <div 
+            style={{backgroundImage: `url(${Mixifi})`}}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            >
+                {/* Hover effects */}
+                <div className='opacity-0 group group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                JS Application
+                            </span>
 
+                        <div className='pt-8 text-center'>
+                            <a target="_blank" href='https://mixifi.vercel.app/'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' >Demo</button>
+                            </a>
+                            <a target="_blank" href='https://github.com/ctorres0312/Mixifi'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' >Code</button>
+                            </a>
+                        </div>
+                  </div>
+                </div>
+
+
+            </div>
       </div>
     </div>
   )
