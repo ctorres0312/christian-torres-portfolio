@@ -10,7 +10,7 @@ const Home = () => {
         <p className="text-[#80D1FF]">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">Christian Torres</h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">I'm a Front End Web Developer.</h2>
-        <p className="text-[#8892b0] py-4 max-w-[700xl]">I'm a web developer transitioning from audio engineering. With a strong background in audio engineering, I've now set my sights on the world of web development. Passionate about creativity and technology, I'm excited to combine my unique experiences to bring innovative solutions to the digital realm.</p>
+        <p className="text-[#8892b0] py-4 max-w-[700xl]">I am a creative and devoted professional with a profound enthusiasm for technology and design. As a Front-End Web Developer, I specialize in transforming digital concepts into reality by designing visually captivating and user-friendly websites. My expertise in HTML, CSS, JavaScript, and React enables me to thrive in the dynamic world of web development. I am resolute in keeping up with industry trends to deliver outstanding online experiences. My fervor for creativity and technology drives me to unite my diverse experiences and deliver pioneering solutions in the digital landscape.</p>
         <div>
         <Link to="work" smooth={true} duration={500}>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#80D1FF] hover:border-[#80D1FF]">View Work 
