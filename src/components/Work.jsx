@@ -2,7 +2,7 @@ import React from "react";
 import ThriftThreads from "../assets/THRIFTHREADS.png";
 import Mixifi from "../assets/MIXIFI.png";
 import GuessNumber from "../assets/guess-a-number.png";
-import PigGame from "../assets/Dice Pig Game.png";
+import PigGame from "../assets/DicePigGame.png";
 import SimpleWeather from "../assets/simpleweather.png";
 
 const Work = () => {
